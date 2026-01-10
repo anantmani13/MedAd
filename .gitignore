@@ -1,29 +1,19 @@
-# Python
+.env
+.env.local
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
-.Python
 venv/
+env/
 .venv/
-ENV/
-
-# Environment variables (NEVER COMMIT THIS!)
-.env
-
-# IDE
-.vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
+.vscode/
 .DS_Store
 Thumbs.db
-
-# Data files (too large for GitHub)
-# Uncomment these if you don't want to upload the CSV files
-# *.csv
-
-# Logs
 *.log
+.cache/
+*.zip
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
